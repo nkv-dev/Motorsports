@@ -142,3 +142,108 @@ section {
 .spa-driver-stat:last-child, .spa-car-stat:last-child, .spa-record-stat:last-child {
     margin-bottom: 0;
 }
+/* Le Mans Page Styles */
+.lemans-hero {
+    background: linear-gradient(135deg, rgba(30, 60, 114, 0.8) 0%, rgba(42, 82, 152, 0.8) 50%, rgba(220, 53, 69, 0.8) 100%), url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+}
+
+.lemans-track-map {
+    border: 3px solid #dee2e6;
+    background: #ffffff;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.lemans-driver-stat, .lemans-car-stat, .lemans-record-stat {
+    padding: 0.75rem;
+    background: #f8f9fa;
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+}
+
+.lemans-driver-stat:last-child, .lemans-car-stat:last-child, .lemans-record-stat:last-child {
+    margin-bottom: 0;
+}
+/* Le Mans 2 Page Styles - Modern Design */
+.lemans2-hero {
+    background: linear-gradient(45deg, #000000 0%, #1a1a1a 50%, #ff6b00 100%);
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+.lemans2-countdown div {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+}
+
+.lemans2-circle {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #ff6b00;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background: rgba(255, 107, 0, 0.1);
+}
+
+.lemans2-stat-card {
+    padding: 2rem 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.lemans2-timing-board {
+    background: #000;
+    color: #00ff00;
+    font-family: 'Courier New', monospace;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.lemans2-timing-header {
+    background: #333;
+    padding: 1rem;
+    font-weight: bold;
+    border-bottom: 2px solid #00ff00;
+}
+
+.lemans2-timing-row {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #333;
+}
+
+.lemans2-timing-row:hover {
+    background: rgba(0, 255, 0, 0.1);
+}
+
+.lemans2-class-card {
+    background: #fff;
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    border-left: 5px solid;
+}
+
+.lemans2-hypercar { border-left-color: #ff6b00; }
+.lemans2-lmp2 { border-left-color: #007bff; }
+.lemans2-gte-pro { border-left-color: #28a745; }
+.lemans2-gte-am { border-left-color: #6c757d; }
+
+.lemans2-class-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.lemans2-class-winner {
+    text-align: center;
+}
