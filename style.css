@@ -142,33 +142,10 @@ section {
 .spa-driver-stat:last-child, .spa-car-stat:last-child, .spa-record-stat:last-child {
     margin-bottom: 0;
 }
-/* Le Mans Page Styles */
-.lemans-hero {
-    background: linear-gradient(135deg, rgba(30, 60, 114, 0.8) 0%, rgba(42, 82, 152, 0.8) 50%, rgba(220, 53, 69, 0.8) 100%), url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
-    min-height: 40vh;
-    display: flex;
-    align-items: center;
-}
 
-.lemans-track-map {
-    border: 3px solid #dee2e6;
-    background: #ffffff;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-}
-
-.lemans-driver-stat, .lemans-car-stat, .lemans-record-stat {
-    padding: 0.75rem;
-    background: #f8f9fa;
-    border-radius: 6px;
-    margin-bottom: 0.5rem;
-}
-
-.lemans-driver-stat:last-child, .lemans-car-stat:last-child, .lemans-record-stat:last-child {
-    margin-bottom: 0;
-}
 /* Le Mans 2 Page Styles - Modern Design */
 .lemans2-hero {
-    background: linear-gradient(45deg, #000000 0%, #1a1a1a 50%, #ff6b00 100%);
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.8) 0%, rgba(26, 26, 26, 0.8) 50%, rgba(255, 107, 0, 0.8) 100%), url('https://cdn-8.motorsport.com/images/amp/6O1dL7N2/s6/start-action.jpg') center/cover no-repeat;
     min-height: 50vh;
     display: flex;
     align-items: center;
