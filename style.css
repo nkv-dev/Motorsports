@@ -57,3 +57,64 @@ section {
     border-color: #2a5298;
 }
 
+/* Monaco Page Styles */
+.monaco-hero {
+    background: linear-gradient(135deg, rgba(30, 60, 114, 0.8) 0%, rgba(42, 82, 152, 0.8) 50%, rgba(220, 53, 69, 0.8) 100%), url('https://i.ytimg.com/vi/huMevQm7udw/maxresdefault.jpg') center/cover no-repeat;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+}
+
+.track-map-large {
+    border: 3px solid #dee2e6;
+    background: #ffffff;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.track-map-large svg {
+    filter: drop-shadow(3px 3px 6px rgba(0,0,0,0.15));
+}
+
+.stat-box {
+    text-align: center;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+    border-left: 4px solid #2a5298;
+}
+
+.driver-stat, .car-stat, .record-stat {
+    padding: 0.75rem;
+    background: #f8f9fa;
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+}
+
+.driver-stat:last-child, .car-stat:last-child, .record-stat:last-child {
+    margin-bottom: 0;
+}
+
+/* Silverstone Page Styles */
+.silverstone-hero {
+    background: linear-gradient(135deg, rgba(30, 60, 114, 0.8) 0%, rgba(42, 82, 152, 0.8) 50%, rgba(220, 53, 69, 0.8) 100%), url('https://www.racefans.net/wp-content/uploads/2024/07/racefansdotnet-7439980_HiRes.jpg') center/cover no-repeat;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+}
+
+.silverstone-track-map {
+    border: 3px solid #dee2e6;
+    background: #ffffff;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.silverstone-driver-stat, .silverstone-car-stat, .silverstone-record-stat {
+    padding: 0.75rem;
+    background: #f8f9fa;
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+}
+
+.silverstone-driver-stat:last-child, .silverstone-car-stat:last-child, .silverstone-record-stat:last-child {
+    margin-bottom: 0;
+}
