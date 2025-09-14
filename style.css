@@ -2,7 +2,7 @@
 
 .hero-section {
     background: linear-gradient(135deg, rgba(30, 60, 114, 0.8) 0%, rgba(42, 82, 152, 0.8) 100%), url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
-    min-height: 60vh;
+    min-height: 40vh;
     display: flex;
     align-items: center;
 }
@@ -60,7 +60,7 @@ section {
 /* Monaco Page Styles */
 .monaco-hero {
     background: linear-gradient(135deg, rgba(30, 60, 114, 0.8) 0%, rgba(42, 82, 152, 0.8) 50%, rgba(220, 53, 69, 0.8) 100%), url('https://i.ytimg.com/vi/huMevQm7udw/maxresdefault.jpg') center/cover no-repeat;
-    min-height: 60vh;
+    min-height: 40vh;
     display: flex;
     align-items: center;
 }
@@ -97,7 +97,7 @@ section {
 /* Silverstone Page Styles */
 .silverstone-hero {
     background: linear-gradient(135deg, rgba(30, 60, 114, 0.8) 0%, rgba(42, 82, 152, 0.8) 50%, rgba(220, 53, 69, 0.8) 100%), url('https://www.racefans.net/wp-content/uploads/2024/07/racefansdotnet-7439980_HiRes.jpg') center/cover no-repeat;
-    min-height: 60vh;
+    min-height: 40vh;
     display: flex;
     align-items: center;
 }
@@ -116,5 +116,29 @@ section {
 }
 
 .silverstone-driver-stat:last-child, .silverstone-car-stat:last-child, .silverstone-record-stat:last-child {
+    margin-bottom: 0;
+}
+/* Spa Page Styles */
+.spa-hero {
+    background: linear-gradient(135deg, rgba(30, 60, 114, 0.8) 0%, rgba(42, 82, 152, 0.8) 50%, rgba(220, 53, 69, 0.8) 100%), url('https://imageio.forbes.com/specials-images/imageserve/677fd4871178cc55b87e82ce/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds') center/cover no-repeat;
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+}
+
+.spa-track-map {
+    border: 3px solid #dee2e6;
+    background: #ffffff;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.spa-driver-stat, .spa-car-stat, .spa-record-stat {
+    padding: 0.75rem;
+    background: #f8f9fa;
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+}
+
+.spa-driver-stat:last-child, .spa-car-stat:last-child, .spa-record-stat:last-child {
     margin-bottom: 0;
 }
