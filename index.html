@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>European Racing Hub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">🏁 European Racing</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#f1">Formula 1</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#endurance">Endurance</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#touring">Touring Cars</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4 fw-bold mb-3">European Racing Excellence</h1>
+            <p class="lead mb-4">Discover the thrilling world of European motorsports</p>
+            <a href="#f1" class="btn btn-primary btn-lg">Explore Racing</a>
+        </div>
+    </section>
+
+    <!-- Formula 1 Section -->
+    <section id="f1" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Formula 1 in Europe</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 clickable-card" onclick="window.location.href='monaco.html'">
+                        <div class="card-body">
+                            <h5 class="card-title">Monaco Grand Prix</h5>
+                            <p class="card-text">The most prestigious race on the F1 calendar, held in the streets of
+                                Monte Carlo.</p>
+                            <span class="badge bg-primary">Monaco</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Silverstone Circuit</h5>
+                            <p class="card-text">Home of the British Grand Prix and birthplace of Formula 1 racing.</p>
+                            <span class="badge bg-primary">United Kingdom</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Spa-Francorchamps</h5>
+                            <p class="card-text">Belgium's legendary circuit known for its challenging Eau Rouge corner.
+                            </p>
+                            <span class="badge bg-primary">Belgium</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Endurance Racing Section -->
+    <section id="endurance" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Endurance Racing</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h3>24 Hours of Le Mans</h3>
+                    <p>The world's oldest active endurance racing event, held annually in France since 1923. Teams race
+                        for 24 hours straight, testing both speed and reliability.</p>
+                    <ul class="list-unstyled">
+                        <li>🏆 Most prestigious endurance race</li>
+                        <li>🇫🇷 Circuit de la Sarthe, France</li>
+                        <li>⏱️ 24-hour non-stop racing</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h3>6 Hours of Spa</h3>
+                    <p>Part of the World Endurance Championship, this Belgian race combines the challenge of
+                        Spa-Francorchamps with endurance racing strategy.</p>
+                    <ul class="list-unstyled">
+                        <li>🏁 WEC Championship round</li>
+                        <li>🇧🇪 Spa-Francorchamps, Belgium</li>
+                        <li>🚗 Multiple car classes</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Touring Cars Section -->
+    <section id="touring" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">European Touring Cars</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">WTCR - World Touring Car Cup</h5>
+                            <p class="card-text">FIA World Touring Car Cup featuring races across Europe with
+                                production-based cars.</p>
+                            <div class="d-flex gap-2">
+                                <span class="badge bg-success">Germany</span>
+                                <span class="badge bg-success">Hungary</span>
+                                <span class="badge bg-success">Slovakia</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">British Touring Car Championship</h5>
+                            <p class="card-text">One of the most competitive touring car series, featuring close racing
+                                and multiple manufacturers.</p>
+                            <div class="d-flex gap-2">
+                                <span class="badge bg-success">Brands Hatch</span>
+                                <span class="badge bg-success">Silverstone</span>
+                                <span class="badge bg-success">Donington</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p>&copy; 2024 European Racing Hub. Racing passion from across Europe.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

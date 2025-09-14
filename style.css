@@ -1,0 +1,95 @@
+/* Custom styles for European Racing website */
+
+.hero-section {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    transition: transform 0.3s ease;
+    border: none;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.badge {
+    font-size: 0.8rem;
+}
+
+section {
+    scroll-margin-top: 70px;
+}
+
+.list-unstyled li {
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+}
+
+.btn-primary {
+    background-color: #2a5298;
+    border-color: #2a5298;
+}
+
+.btn-primary:hover {
+    background-color: #1e3c72;
+    border-color: #1e3c72;
+}
+
+/* Clickable Card Styles */
+.clickable-card {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.clickable-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 30px rgba(42, 82, 152, 0.3);
+    border-color: #2a5298;
+}
+
+/* Monaco Page Styles */
+.monaco-hero {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #dc3545 100%);
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+}
+
+.track-map-large {
+    border: 3px solid #dee2e6;
+    background: #ffffff;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.track-map-large svg {
+    filter: drop-shadow(3px 3px 6px rgba(0,0,0,0.15));
+}
+
+.stat-box {
+    text-align: center;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+    border-left: 4px solid #2a5298;
+}
+
+.driver-stat, .car-stat, .record-stat {
+    padding: 0.75rem;
+    background: #f8f9fa;
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+}
+
+.driver-stat:last-child, .car-stat:last-child, .record-stat:last-child {
+    margin-bottom: 0;
+}
